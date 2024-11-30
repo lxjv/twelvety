@@ -5,9 +5,13 @@
   "description": "Laker Turner's 11ty starter, cause setup is hard",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "pnpm exec eleventy",
+    "dev": "pnpm exec eleventy --serve"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
 }
